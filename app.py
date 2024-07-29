@@ -11,6 +11,11 @@ warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 # Carregar o modelo treinado
 model = joblib.load('model_etr.pkl')
 
+st.set_page_config(
+    page_title="AppPredcrim",
+    layout="wide"
+)
+
 st.title('Previsão de Roubos em Campo Grande - MS')
 
 
