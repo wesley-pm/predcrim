@@ -12,7 +12,8 @@ warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 model = joblib.load('model_etr.pkl')
 
 st.set_page_config(
-    page_title="AppPredcrim"
+    page_title="AppPredcrim",
+    layout="wide"
 
 )
 
